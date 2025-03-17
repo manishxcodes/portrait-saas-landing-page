@@ -9,7 +9,7 @@ const Demo = () => {
             initial={{y:50, opacity:0}}
             animate={{y:0, opacity: 1}}
             transition={{
-                duration: 0.4,
+                duration: 0.3,
                 delay: 0.5,
                 ease: easeOut      
             }}>
