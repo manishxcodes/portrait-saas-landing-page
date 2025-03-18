@@ -1,7 +1,7 @@
-import asset1 from '../assets/asset-1.png'
-import asset2 from '../assets/asset-2.png'
-import asset3 from '../assets/asset-3.png'
-import asset4 from '../assets/asset-4.png'
+import asset1 from '../../assets/asset-1.png'
+import asset2 from '../../assets/asset-2.png'
+import asset3 from '../../assets/asset-3.png'
+import asset4 from '../../assets/asset-4.png'
 import { motion } from 'motion/react'
 
 
