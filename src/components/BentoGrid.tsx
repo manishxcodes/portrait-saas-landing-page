@@ -23,7 +23,7 @@ export const BentoGrid = () => {
                 All assets in one place. Everything you need to create your portrait.
                 </p>
                 <div className="relative h-52 w-full object-center object-contain flex justify-center">
-                <img className="object-cover obeject-contain rounded-xl absolute h-[100%] w-full" src={asset1} alt="feature-1" />
+                <img className="object-cover rounded-xl absolute h-[100%] w-full" src={asset1} alt="feature-1" />
                 </div>
             </motion.div>
         </div>
@@ -39,7 +39,7 @@ export const BentoGrid = () => {
                 Create video with consecutive frames of images.
                 </p>
                 <div className="relative h-52 w-full object-center object-contain flex justify-center">
-                <img className="object-cover obeject-contain rounded-xl absolute h-[100%]" src={asset2} alt="feature-1" />
+                <img className="object-cover rounded-xl absolute h-[100%]" src={asset2} alt="feature-1" />
                 </div>
             </div>
         </motion.div>
@@ -57,7 +57,7 @@ export const BentoGrid = () => {
                 Edit, validate and enhance your portraits with your team.
                 </p>
                 <div className="relative h-96 w-full object-center object-contain flex justify-center">
-                <img className="object-cover obeject-contain rounded-xl absolute h-[100%]" src={asset3} alt="feature-1" />
+                <img className="object-cover rounded-xl absolute h-[100%]" src={asset3} alt="feature-1" />
                 </div>
             </div>
         </motion.div>
@@ -73,7 +73,7 @@ export const BentoGrid = () => {
                 Discuss your portraits with your team.
                 </p>
                 <div className="relative h-96 w-full object-center object-contain flex justify-center">
-                <img className="object-cover obeject-contain rounded-xl absolute h-[100%]" src={asset4} alt="feature-1" />
+                <img className="object-cover rounded-xl absolute h-[100%]" src={asset4} alt="feature-1" />
                 </div>
             </div>
         </motion.div>
