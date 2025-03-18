@@ -1,5 +1,5 @@
-import { BentoGrid } from './BentoGrid'
-import { Banner } from './Banner'
+import { BentoGrid } from "./ui/BentoGrid"
+import { Banner } from "./ui/Banner"
 
 export const Features = () => {
   return (

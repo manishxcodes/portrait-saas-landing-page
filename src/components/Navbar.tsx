@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { Button } from "./Button"
+import { Button } from "./ui/Button";
 
 export const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);

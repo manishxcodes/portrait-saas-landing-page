@@ -1,5 +1,5 @@
-import { Banner } from "./Banner"
-import { Modal } from "./Modal"
+import { Banner } from "./ui/Banner"
+import { Modal } from "./ui/Modal"
 
 export const FAQ = () => {
   return (
@@ -7,7 +7,7 @@ export const FAQ = () => {
       <Banner 
       title="Frequently asked questions"
       description="Everything you need to know about our AI portrait studio." />
-      
+
       {
         faq.map((f, i) => (
           <Modal key={i}
