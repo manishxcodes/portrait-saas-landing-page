@@ -23,7 +23,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between md:justify-normal h-20 px-1">
           <div className="w-[200px] flex items-center gap-2">
           <span className="text-3xl flex items-center font-bold text-gray-900 dark:text-white leading-0">❃</span>
-            <span className="text-[22px] flex items-center font-bold text-gray-900 dark:text-white leading-0">Saas Acme </span>
+            <span className="text-[22px] flex items-center font-bold text-gray-900 dark:text-white leading-0">SaaS Acme </span>
           </div>
           
           <div className="hidden md:flex justify-center gap-4 flex-1">
