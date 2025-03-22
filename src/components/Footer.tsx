@@ -4,8 +4,8 @@ export const Footer = () => {
 
 
   return (
-    <div className="max-w-6xl px-4 pb-8 mx-auto my-12 ">
-        <div className="relative w-full overflow-hidden bg-black dark:bg-white rounded-2xl">
+    <div className="max-w-6xl px-4 pt-8 pb-20 mx-auto  bg:white dark:bg-black">
+        <div className="relative w-full  bg-black dark:bg-white rounded-2xl">
             <div className="max-w-7xl mx-auto px-6 py-8 md:py-12">
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-4">
                     <div className="col-span-1 md:col-span-5">
