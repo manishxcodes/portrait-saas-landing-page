@@ -2,15 +2,14 @@ import { easeOut, motion } from "motion/react"
 
 export const Hero = () => {
     return (
-      <div className="relative pt-20 sm:pt-30 w-full bg-white dark:bg-black">
+      <div id="hero" className="relative pt-20 sm:pt-30 w-full bg-white dark:bg-black">
         <motion.div
             className="w-full"
             initial={{y:30, opacity:0}}
             animate={{y:0, opacity: 1}}
             transition={{
                 duration: 0.5,
-                ease: easeOut
-                
+                ease: easeOut    
             }}>
           <div className="flex flex-col items-center mx-auto min-h-[40vh] max-w-5xl px-4">
             <div className="flex flex-col items-center">
