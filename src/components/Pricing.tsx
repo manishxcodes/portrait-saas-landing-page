@@ -3,7 +3,7 @@ import { PriceCard } from "./ui/PriceCard"
 
 export const Pricing = () => {
   return (
-    <div className="w-full max-w-7xl flex flex-col mx-auto items-center justify-center px-4">
+    <div id="pricing" className="w-full max-w-7xl flex flex-col mx-auto items-center justify-center px-4">
         <Banner title="Simple, transparent pricing"
         description="Choose the perfect plan for your professional image needs." 
         />

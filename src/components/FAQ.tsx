@@ -3,7 +3,7 @@ import { Modal } from "./ui/Modal"
 
 export const FAQ = () => {
   return (
-    <div className="w-full p-8">
+    <div id="faq" className="w-full p-8">
       <Banner 
       title="Frequently asked questions"
       description="Everything you need to know about our AI portrait studio." />

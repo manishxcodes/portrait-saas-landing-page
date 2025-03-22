@@ -3,7 +3,7 @@ import { Banner } from "./ui/Banner"
 
 export const Features = () => {
   return (
-    <div className=" text-white dark:text-white bg-white dark:bg-black w-full max-w-7xl flex flex-col items-center mx-auto mb-10">
+    <div id="features" className=" text-white dark:text-white bg-white dark:bg-black w-full max-w-7xl flex flex-col items-center mx-auto mb-10">
             <Banner 
                 title="Features made for you
 "
