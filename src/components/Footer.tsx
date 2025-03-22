@@ -9,7 +9,12 @@ export const Footer = () => {
             <div className="max-w-7xl mx-auto px-6 py-8 md:py-12">
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-4">
                     <div className="col-span-1 md:col-span-5">
-                        <a className="text-xl font-bold text-white dark:text-black ">AI Studios</a>
+                        <a className="text-xl font-bold text-white dark:text-black cursor-pointer"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            document.getElementById("hero")?.scrollIntoView({ behavior: "smooth" });
+                          }}
+                        >AI Studios</a>
                         <p className="max-w-sm text-sm text-neutral-400 dark:text-neutral-800 mt-4 mb-6 ">Transform your  professional image with AI-powered portraits that capture your authentic self.</p>
 
                         <div className="flex items-center gap-4">
@@ -29,15 +34,27 @@ export const Footer = () => {
                             <p className="font-medium text-white dark:text-black mb-3">Product</p>
                             <ul className="space-y-2 w-full md:text-right">
                                 <li>
-                                    <a className="text-sm text-neutral-300 dark:text-neutral-700 hover:text-white dark:hover:text-black transition-colors duration-200" href="#features">Features
+                                    <a className="text-sm text-neutral-300 dark:text-neutral-700 hover:text-white dark:hover:text-black transition-colors duration-200" href="#features"
+                                      onClick={(e) => {
+                                        e.preventDefault();
+                                        document.getElementById("features")?.scrollIntoView({ behavior: "smooth" });
+                                      }}>Features
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="text-sm text-neutral-300 dark:text-neutral-700 hover:text-white dark:hover:text-black transition-colors duration-200" href="#pricing">Pricing
+                                    <a className="text-sm text-neutral-300 dark:text-neutral-700 hover:text-white dark:hover:text-black transition-colors duration-200" href="#pricing"
+                                      onClick={(e) => {
+                                        e.preventDefault();
+                                        document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" });
+                                      }}>Pricing
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="text-sm text-neutral-300 dark:text-neutral-700 hover:text-white dark:hover:text-black transition-colors duration-200" href="#faq">FAQ
+                                    <a className="text-sm text-neutral-300 dark:text-neutral-700 hover:text-white dark:hover:text-black transition-colors duration-200" href="#faq"
+                                      onClick={(e) => {
+                                        e.preventDefault();
+                                        document.getElementById("faq")?.scrollIntoView({ behavior: "smooth" });
+                                      }}>FAQ
                                     </a>
                                 </li>
                             </ul>
